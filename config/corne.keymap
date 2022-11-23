@@ -46,13 +46,13 @@
 // -----------------------------------------------------------------------------------------
 // |      |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |      |
 // |      | ESC | TAB |     |     |     |   | LFT | DWN |  UP | RGT | '   |      |
-// |      | BT1 | BT2 | BT3 | BT4 | BT5 |   |LC(Z)|LC(C)|LC(V)|     |     |      |
-//                  |DEFAULT|     |     |   |     |     |COLEMAK|
+// |      | BT1 | BT2 | BT3 | BT4 | BT5 |   |LC(Z) |LC(C) |LC(V)|     |     |      |
+//                  |DEFAULT|     |     |   | BKSP |     |COLEMAK|
                         bindings = <
    &none    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &none
    &none    &kp ESC      &kp TAB       &trans       &trans       &trans        &kp LEFT &kp DOWN &kp UP &kp RIGHT &pht LS(SQT) SQT &none
    &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp LC(X)   &kp LC(C) &kp LC(V) &trans  &trans &none
-                          	             &to 0     &trans       &trans     &trans  &trans   &to 3
+                          	             &to 0     &trans       &trans     &kp BKSP  &trans   &to 3
                         >;
                 };
 
