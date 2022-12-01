@@ -51,8 +51,7 @@
    &none &pht LS(Q) Q &pht LS(W) W &pht LS(E) E &pht LS(R) R &pht LS(T) T   &pht LS(Y) Y &pht LS(U) U  &pht LS(I) I     &pht LS(O) O   &pht LS(P) P    &none
    &none &pht LS(A) A &pht LS(S) S &pht LS(D) D &pht LS(F) F &pht LS(G) G   &pht LS(H) H &pht LS(J) J  &pht LS(K) K     &pht LS(L) L   &pht LS(SEMI) SEMI &none
    &none &pht LS(Z) Z &pht LS(X) X &pht LS(C) C &pht LS(V) V &pht LS(B) B   &pht LS(N) N &pht LS(M) M  &kp COMMA &kp DOT &pht LS(FSLH) FSLH &none
-                                      &pht LCTRL LGUI MO_TOG(1) &kp SPACE   &pht BKSP RET MO_TOG(2) &pht LSHFT LALT
-                        >;
+                                      &pht LCTRL LGUI MO_TOG(1) &kp SPACE   &pht BKSP RET MO_TOG(2) &pht LALT LSHFT                      >;
                 };
                 FIRST {
 // -----------------------------------------------------------------------------------------
