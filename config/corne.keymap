@@ -51,7 +51,8 @@
 //   &none &pht LS(Q) Q &pht LS(W) W &pht LS(E) E &pht LS(R) R &pht LS(T) T   &pht LS(Y) Y &pht LS(U) U  &pht LS(I) I     &pht LS(O) O   &pht LS(P) P    &none
 //   &none &pht LS(A) A &pht LS(S) S &pht LS(D) D &pht LS(F) F &pht LS(G) G   &pht LS(H) H &pht LS(J) J  &pht LS(K) K     &pht LS(L) L   &pht LS(SEMI) SEMI &none
 //   &none &pht LS(Z) Z &pht LS(X) X &pht LS(C) C &pht LS(V) V &pht LS(B) B   &pht LS(N) N &pht LS(M) M  &kp COMMA &kp DOT &pht LS(FSLH) FSLH &none
-//                                      &pht LCTRL LGUI MO_TOG(1) &kp SPACE   &pht BKSP RET MO_TOG(2) &pht LALT LSHFT                      >;
+//                                      &pht LCTRL LGUI MO_TOG(1) &kp SPACE   &pht BKSP RET MO_TOG(2) &pht LALT LSHFT                      
+//                         >;
 //                };  
                 DEFAULT {
 // -----------------------------------------------------------------------------------------
@@ -63,7 +64,8 @@
    &none &pht LS(Q) Q &pht LS(W) W &pht LS(F) F &pht LS(P) P &pht LS(B) B   &pht LS(J) J &pht LS(L) L  &pht LS(U) U     &pht LS(Y) Y   &pht LS(SEMI) SEMI  &none
    &none &pht LS(A) A &pht LS(R) R &pht LS(S) S &pht LS(T) T &pht LS(G) G   &pht LS(M) M &pht LS(N) N  &pht LS(E) E     &pht LS(I) I   &pht LS(O) O &none
    &none &pht LS(Z) Z &pht LS(X) X &pht LS(C) C &pht LS(D) D &pht LS(V) V   &pht LS(K) K &pht LS(H) H  &kp COMMA        &kp DOT       &pht LS(FSLH) FSLH &none
-                                          &pht LCTRL LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &pht LALT LSHFT                      >;
+                                          &pht LCTRL LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &pht LALT LSHFT                      
+                        >;
                 };  
                 FIRST {
 // -----------------------------------------------------------------------------------------
@@ -74,7 +76,7 @@
                         bindings = <
    &none    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5               &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &none
    &none    &pht ESC TAB      &kp LC(Z)      &kp LC(C)   &kp LC(V)  &kp LC(X)        &kp LEFT &kp DOWN &kp UP &kp RIGHT &pht LS(SQT) SQT &none
-   &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4            &kp LC(LA(LEFT))   &kp LC(LA(LSHFT(LEFT)))   &kp LC(LA(LSHFT(LEFT))) &kp LC(LA(RIGHT))  &kp DEL &none
+   &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4            &kp LC(LA(LEFT))   &trans   &trans &kp LC(LA(RIGHT))  &kp DEL &none
                           	               &trans     &trans       &trans            &kp BKSP  &trans   &trans
                         >;
                 };
